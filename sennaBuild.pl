@@ -1,8 +1,6 @@
 :- dynamic answer_yes/1.
 :- dynamic answer_no/1.
 
-maybe_yes(_) :- true.
-
 question(enemy_has_more_than_one_frontliner, "Do the enemies have more than one frontliner?").
 question(has_more_than_one_frontliner, "Do you have more than one frontliner?").
 question(facing_engage_support, "Are you facing an engage support?").
